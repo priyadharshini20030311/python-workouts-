@@ -10,8 +10,8 @@ for i in a:
     if(i==sender):
         print("sender is available")
         s=(a.index(i))
-        print("bal amount",b[s]-amount)
+        print("Sender bal amount",b[s]-amount)
     elif(i==receiver):
         print("receiver is available")
         p=(a.index(i))
-        print("add amount",b[p]+amount)
+        print("Receiver add amount",b[p]+amount)
