@@ -8,13 +8,13 @@ print(type(a))'''
 
 '''(AND OR NOT)'''
 
-a=int(input("Enter first number"))
+'''a=int(input("Enter first number"))
 b=int(input("Enter second number"))
 c=int(input("Enter third number"))
 if(a>b)and(a>c):
     print("true")
 else:
-    print("false")
+    print("false")'''
 
 
 '''a=int(input("Enter first number"))
