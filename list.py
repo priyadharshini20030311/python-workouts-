@@ -1,33 +1,36 @@
 '''list'''
 
+'''---type 1---'''
+
 '''a=[10,20,30,40]
 print(a)'''
 
+'''index values 0 1 2 3 or -4 -3 -2 -1'''
+
+'''---type 2---'''
+
 '''a=[10,20,30,40]
-print(a[2])
+print(a[2])'''
+
+'''a=[1,2,3,4,4]
 print(a[-3])'''
 
 
-'''for'''
+'''---type 3---'''
 
-'''a=[10,20,30,40]
+'''a=[1,2,3,4,5]
+for i in a:
+    print(i)'''
 
-for i in a :
-      print(i)'''
+'''---type 4---'''
 
+'''using list() function to create list'''
 
-'''a=list(x*2 for x in range(1,10))
-print(a)'''
-
-
-'''task'''
-
-a=['arthi','kanna','ram','priya','ganesh']
-b=[400,500,200,700,100]
-sender:int(input("sender name"))
-receiver: int(input("receiver name"))
-amountbalance: int(input("balance"))
+a=list(x*2 for x in range(1,10))
 print(a)
+
+
+
 
     
     

@@ -1,21 +1,20 @@
-n=5
-for i in range(1,3,1):    
-    '''print(i)'''
-    j=0
-    while(j<n):
-        print("hii")
-        j+=1
-    print("\n")
+a=input("A:")
+b=input("B:")
+c=input("C:")
 
+if(a>b):
+    print("A")
+    if(a>c):
+        print("A is big")
+    else:
+        print("A is small")
+else:
+    if(a<b):
+        print("B is big")
+        if(a<c):
+            print("C is big")
+        else:
+             print("C is small")
+    else:
+         print("B is small")
 
-
-''' task'''
-
-'''n=9
-for i in range(1,8,1):
-     print(i)
-     j=0
-     while(j<i):
-         print("*",end= ' ')
-         j+=1
-     print("\n")'''
